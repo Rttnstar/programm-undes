@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="week_2_D9"/>
+        <attribute name="authors" value="kay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-16 01:17:59 PM"/>
+        <attribute name="created" value="a2F5O0VOVlk7MjAyNi0wOS0xNjswMToxNjozNyBQTTsxOTM1"/>
+        <attribute name="edited" value="a2F5O0VOVlk7MjAyNi0wOS0xNjswMToxNzo1OSBQTTsxOzIwNDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="c" expression="sqrt(a^2 + b^2)"/>
+            <output expression="&quot;&#1043;&#1080;&#1087;&#1086;&#1090;&#1077;&#1085;&#1091;&#1079;: &quot; &amp; c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

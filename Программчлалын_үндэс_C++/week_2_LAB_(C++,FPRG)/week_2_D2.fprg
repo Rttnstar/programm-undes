@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="week_2_D2"/>
+        <attribute name="authors" value="kay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-15 05:21:14 PM"/>
+        <attribute name="created" value="a2F5O0VOVlk7MjAyNi0wOS0xNTswNToxNTo1MiBQTTsxOTM0"/>
+        <attribute name="edited" value="a2F5O0VOVlk7MjAyNi0wOS0xNTswNToyMToxNCBQTTsxOzIwMzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ovog" type="String" array="False" size=""/>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="meregjil" type="String" array="False" size=""/>
+            <output expression="&quot;&#1058;&#1072;&#1085;&#1099; &#1086;&#1074;&#1086;&#1075; &#1093;&#1101;&#1085; &#1073;&#1101;?&quot;" newline="True"/>
+            <input variable="ovog"/>
+            <output expression="&quot;&#1058;&#1072;&#1085;&#1099; &#1085;&#1101;&#1088; &#1093;&#1101;&#1085; &#1073;&#1101;?&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;&#1058;&#1072; &#1103;&#1084;&#1072;&#1088; &#1084;&#1101;&#1088;&#1075;&#1101;&#1078;&#1083;&#1101;&#1101;&#1088; &#1089;&#1091;&#1088;&#1072;&#1083;&#1094;&#1072;&#1078; &#1073;&#1072;&#1081;&#1075;&#1072;&#1072; &#1074;&#1101;?&quot;" newline="True"/>
+            <input variable="meregjil"/>
+            <output expression="ovog &amp; &quot; &quot; &amp; name &amp; &quot; - &quot; &amp; meregjil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

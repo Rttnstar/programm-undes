@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="week_2_D8"/>
+        <attribute name="authors" value="kay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-16 01:16:34 PM"/>
+        <attribute name="created" value="a2F5O0VOVlk7MjAyNi0wOS0xNjswMToxMzoxNSBQTTsxOTI4"/>
+        <attribute name="edited" value="a2F5O0VOVlk7MjAyNi0wOS0xNjswMToxNjozNCBQTTsxOzIwNDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="count, x, y" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="0"/>
+            <assign variable="x" expression="1"/>
+            <while expression="count&lt;15">
+                <assign variable="y" expression="x+2"/>
+                <output expression="&quot;(&quot; &amp; x &amp; &quot;, &quot; &amp; y &amp; &quot;)&quot;" newline="True"/>
+                <assign variable="count" expression="count+1"/>
+                <assign variable="x" expression="x+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
