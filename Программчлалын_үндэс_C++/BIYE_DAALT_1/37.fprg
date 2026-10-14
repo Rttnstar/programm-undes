@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="37"/>
+        <attribute name="authors" value="kay"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-05 07:52:11 PM"/>
+        <attribute name="created" value="a2F5O0VOVlk7MjAyNi0xMC0wNTswNzozOTozNSBQTTsxOTM0"/>
+        <attribute name="edited" value="a2F5O0VOVlk7MjAyNi0xMC0wNTswNzo1MjoxMSBQTTsxOzIwMzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a &gt;= b&amp;&amp;b &gt;= c">
+                <then>
+                    <assign variable="a" expression="a*2"/>
+                    <assign variable="b" expression="b*2"/>
+                    <assign variable="c" expression="c*2"/>
+                </then>
+                <else>
+                    <assign variable="a" expression="abs(a)"/>
+                    <assign variable="b" expression="abs(b)"/>
+                    <assign variable="c" expression="abs(c)"/>
+                </else>
+            </if>
+            <output expression="&quot;&#1198;&#1088; &#1076;&#1199;&#1085;: &quot;&amp;&quot;a = &quot;&amp;a&amp;&quot; b = &quot;&amp;b&amp;&quot; c = &quot;&amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
