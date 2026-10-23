@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
   int m, n, r;
-cout << "m bolon n toonuudiig oruulna uu: "
+cout << "m bolon n toonuudiig oruulna uu: ";
   cin >> m >> n;
 while (n !=0){
 r = m % n;
